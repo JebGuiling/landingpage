@@ -72,22 +72,32 @@ img{
 }
 .white_container{
     background-color: white;
-    margin-top: 100px;
+    margin-top: 140px;
 }
 
 .info{
+    display: flex;
     font-size: 36px;
     font-weight: bolder;
     color: #1f2937;
-    display: flex;
     justify-content: center;
-    
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .container_card{
     display: flex;
     gap: 16px;
+    justify-content: center;
+}
+.contain_info{
+    margin-top: 16px;
+    display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    width: 150px;
+    gap: 8px;
 }
 
 .card{
@@ -95,6 +105,7 @@ img{
     width: 100px;
     height: 100px;
     border-radius: 8px;
+    display:flex;
+
     
 }
-

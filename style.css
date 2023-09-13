@@ -1,8 +1,7 @@
 body{
     background-color: #1f2937;
-    height: 2000px;
+    height: auto;
     width: auto;
-    border: 12px solid black;
 
 }
 
@@ -53,7 +52,7 @@ ul{
     display: flex;
     font-size: 18px;
     color: #e5E7EB;
-
+    text-align: start;
 }
 
 img{
@@ -108,4 +107,81 @@ img{
     display:flex;
 
     
+}
+
+.text{
+    text-align: center;
+}
+
+.gray_container{
+    background-color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 100px;
+    height: 400px;
+}
+
+.quote{
+    font-size: 36px;
+    font-style: italic ;
+    color: #1F2937;
+    display: flex;
+    width: 760px;
+}
+
+.quote_name{
+    font-weight: bold;
+    display: flex;
+    margin-left: 500px;
+}
+
+.white_container2{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.blue_container{
+    display: flex;
+    background-color: #3882F6;
+    width: 900px;
+    height: 150px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 100px;
+    border-radius: 8px;
+
+}
+
+.call-to-action{
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+
+}
+.button2{
+    color: white;
+    background-color: #3882F6;
+    height: auto;
+    width: 100px;
+    font-size: 16px;
+    border-radius: 6px;
+    margin-left: 50px;
+    border-color: white;
+
+}
+.text2{
+    color: white;
+}
+
+.copyright{
+    color: white;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
 }
